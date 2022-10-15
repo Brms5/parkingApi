@@ -2,7 +2,7 @@
 
 ## :notebook: Sobre
 
-O projeto é um simulador de gerenciamento de estacionamentos, utilizado para estudos. Ainda não desenvolvi uma interface para o projeto, por enquanto é uma Api.
+O projeto é um simulador de gerenciamento de estacionamentos, utilizado para estudos.
 
 ## :hammer_and_wrench: Tecnologias
 
