@@ -1,46 +1,59 @@
 <h1 align="center"> :car: Parking Spot :office:</h1>
 
-## :notebook: Sobre
+## :notebook: About
 
-O projeto é um simulador de gerenciamento de estacionamentos, utilizado para estudos.
+The project is a simulator of parking management, used for studies.
 
-## :hammer_and_wrench: Tecnologias
+## :heavy_check_mark: Features
 
-As seguintes tecnologias foram usadas na construção do projeto:
+Parking spot CRUD:
+
+- Create a new parking spot(developed);
+- Request all parking spot(developed);
+- Request one parking spot(developed);
+- Update one parking spot(developed);
+- Delete one parking spot(developed);
+
+## :hammer_and_wrench: Technology
+
+The following technologies were used in the construction of the project:
 
 - Java
 - Spring Boot
+- JUnit
+- PostgreSQL
+- Swagger
 
-### :scroll: Dependencias
+### :scroll: Dependencies
 
 - Spring Web
 - Spring Data JPA
 - Validation
 - PostgreSQL Driver
 
-## 	:leftwards_arrow_with_hook: Requisitos
+## 	:leftwards_arrow_with_hook: Requirements to use the system
 
-É necessário ter instalado em sua máquina a ferramenta [Git](https://git-scm.com/) e um bom editor, que ajuda bastante para trabalhar com o código. Eu recomendo o [IntelliJ IDEA](https://www.jetbrains.com/idea/).
-Para executar as rotas, recomendo a ferramenta [Postman](https://www.postman.com/).
+You must have installed on your machine the tool [Git](https://git-scm.com/) and a nice editor, to work on the code. I recomend the [IntelliJ IDEA](https://www.jetbrains.com/idea/).
+To run the routes, this project has the endpoints documented in swagger(http://localhost:8080/swagger-ui/index.html#/).
 
-#### :checkered_flag: Rodando o Projeto
+#### :checkered_flag: To run the project
 
 ```
-I) Clone este repositório
+I) Clone this repository
 
-$ git clone <https://github.com/Brms5/parkingApi.git>
+$ git clone <https://github.com/Brms5/votingSessionApp.git>
 
-II) Acesse a pasta do projeto no terminal
+II) Access the project folder in the terminal
 
-$ cd ./parking-control
+$ cd ./voting-session
 
-III) Para baixar as dependências do projeto através do maven
+III) To download the project dependencies via maven
 
 $ mvn clean install
 
-IV) Para iniciar o projeto
+IV) To start the project
 
 $ mvn spring-boot:run
 
-O servidor inciará na porta:8080 - acesse <http://localhost:8080>
+The server wil start on port:8080 - access <http://localhost:8080>
 ```
