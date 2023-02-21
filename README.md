@@ -8,11 +8,11 @@ The project is a simulator of parking management, used for studies.
 
 Parking spot CRUD:
 
-- Create a new parking spot(developed);
-- Request all parking spot(developed);
-- Request one parking spot(developed);
-- Update one parking spot(developed);
-- Delete one parking spot(developed);
+- [x] Create a new parking spot;
+- [x] Request all parking spot;
+- [x] Request one parking spot;
+- [x] Update one parking spot;
+- [x] Delete one parking spot;
 
 ## :hammer_and_wrench: Technology
 
